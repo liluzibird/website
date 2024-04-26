@@ -2,11 +2,12 @@ const allPanels = Array.from(document.querySelectorAll(".panel"));
 const allAccordion = Array.from(document.querySelectorAll(".accordion"));
 
 
-// Set all panels to expanded by default
+// Set all panels to expanded by default. Alpha testers said they did not like.
+/* 
 allPanels.forEach(function (panel) {
   panel.style.maxHeight = panel.scrollHeight + "px";
 });
-
+ */
 const expandAccordion = (elem) => {
   let panel = elem.parentElement.nextElementSibling;
   

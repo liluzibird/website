@@ -1,4 +1,14 @@
 {{ define "main" }}
+
+<!-- 
+redirect content to blog.liluzibird.dev. Useful if redirecting from subdomain to slug
+e.g blog.liluzibird.dev to liluzibird.dev/blog
+
+<meta http-equiv="refresh" content="0; URL=https://blog.liluzibird.dev/">
+
+ -->
+
+
 <div class="grid grid-cols-1 md:grid-cols-5 gap-2 sm py-2">
   <div class="col-span-2">
     <div class="bg-gray-300 dark:bg-darker rounded drop-shadow-md p-2">
@@ -39,4 +49,10 @@
     <script src="{{ `js/accordion.js` | relURL }}"></script>
   </div>
 </div>
+
+
+
+
+
+
 {{ end }}
