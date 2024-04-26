@@ -3,12 +3,11 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
+  title: Liluzibird's Nest
+  author: Albert Huynh
   description: Website title
   copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    powered by [hugo](https://gohugo.io/)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,34 +23,34 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Albert Huynh"
+    tagline: nerd
+    location: "US of A"
     photo: profile.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://linkedin.com/in/albert-huynh-50658b176"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
+      # - icon: fab fa-stack-overflow
+      #   url: "#"
+      #   title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/liluzibird"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
+      # - icon: fab fa-twitter
+      #   url: "#"
+      #   title: Twitter
+      # - icon: fab fa-orcid
+      #   url: "#"
+      #   title: Orcid
+      # - icon: ai ai-google-scholar
+      #   url: "#"
+      #   title: Google Scholar
+      # - icon: fab fa-researchgate
+      #   url: "#"
+      #   title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,14 +63,14 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: Computer science student currently studying at Santa Ana College with an interest in topics in cybersecurity and network security. Transferring to California State Polytechnic University, Pomona in Fall 2024, to complete the Computer Science B.S degree and learn more about information security. Currently looking for an entry job in IT to get my foot in the door.
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: CyberPatriots Mentor
+        dates: 2022 - 2024
+        company: Santa Ana College
         details: |1-
           - Printed from desktop. Sent [emails](#).
               - Called people *using* telephone.
