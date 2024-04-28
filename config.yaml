@@ -5,7 +5,7 @@ build:
 params:
   title: Liluzibird's Nest
   author: Albert Huynh
-  description: Website title
+  description: My personal website
   copyright: >-
     powered by [hugo](https://gohugo.io/)
   theme:
