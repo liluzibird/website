@@ -56,7 +56,7 @@ params:
       expand: true
     - item: experience
     - item: education
-    - item: publication
+    #- item: publication
     - item: project
     - item: skill
     - item: hobby
@@ -84,19 +84,24 @@ params:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: AS-T Computer Science
+        school: Santa Ana College
+        dates: 2022 - 2024 (Expected)
+        details: |
+            Participated and held leadership positions in: Computer Science Club, Women In Computer Science (ICC Representative), Society of Women Engineers, Cybersecurity Club, and Mu Alpha Theta (Secretary).
+        # thesis_title: |
+        #   Studying computer science and looking to transfer to Cal Poly
+        #   Pomona's Computer Science program where I hope to specialize in cybersecurity.
+        #     - Computer Science Club
+        #     - Women In Computer Science (ICC Representative)
+        #     - Society of Women Engineers
+        #     - Cybersecurity Club
+        #     - Mu Alpha Theta (Secretary)
+        #thesis_url: "#"
+      - degree: High School Diploma
+        school: Middle College High School
+        dates: 2018 - 2022
+        details: Participated in and held leadership positions in ASB, NHS, Study Buddies (President), ESports (IGL for CS:GO, Valorant, Rocket League)
   publication:
     title: Publications
     icon: fas fa-book

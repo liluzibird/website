@@ -4,7 +4,7 @@
     <title>Syntax on </title>
     <link>http://localhost:1313/categories/syntax/</link>
     <description>Recent content in Syntax on </description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/syntax/index.xml" rel="self" type="application/rss+xml" />
